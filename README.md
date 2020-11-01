@@ -7,10 +7,10 @@ The purpose of this analysis is to utilize VBA within Excel to automatically per
 ## Results
 
 ### All Stocks Analysis 2017
-<img src="VBA_Challenge_Results_2017.png"></img>
+<img src="VBA_Challenge_Results_2017.PNG"></img>
 
 ### All Stocks Analysis 2018
-<img src="VBA_Challenge_Results_2018.png"></img>
+<img src="VBA_Challenge_Results_2018.PNG"></img>
 
 As shown in above images, most stocks performed well in the year of 2017 with the exception of TERP. However, in 2018, most stocks performed badly with th exception of ENPH and RUN. Notably, ENPH consistently outperformed in both years, with returns of 129.5% in 2017 and 81.9% in 2018, and was the most traded stock in both years. In addition, RUN performed even better in 2018 with a return of 84% and was traded more often than prior year when most of its peers have shown negative returns. Lastly, DQ appeared to be the most volatile stock with both the highest return in 2017 at 199% and the lost the most value in 2018 with a drop of 63%.
 
@@ -20,12 +20,12 @@ As shown in above images, most stocks performed well in the year of 2017 with th
 There were two versions of codes created for the purpose of this analysis. Both scripts provided the same results, but the refactored script runs significantly faster than the original script, as shown in below screenshots.
 
 - Below screenshots show the elapsed run time in the original script
-<img src="Module_Version_2017.png"></img>
-<img src="Module_Version_2018.png"></img>
+<img src="Module_Version_2017.PNG"></img>
+<img src="Module_Version_2018.PNG"></img>
 
 - Below screenshots show the elapsed run time in the refactored script
-<img src="VBA_Challenge_2017.png"></img>
-<img src="VBA_Challenge_2018.png"></img>
+<img src="VBA_Challenge_2017.PNG"></img>
+<img src="VBA_Challenge_2018.PNG"></img>
 
 
 Both scripts begin by creating a variable based on user's input on the year of interest, formats the output sheet on the tab named "All Stocks Analysis" based on the year selected by the user. The first column for tickers was created as an array, with each element assigned with its own ticker, as shown below.
