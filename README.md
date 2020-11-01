@@ -19,13 +19,21 @@ As shown in above images, most stocks performed well in the year of 2017 with th
 
 There were two versions of codes created for the purpose of this analysis. Both scripts provided the same results, but the refactored script runs significantly faster than the original script, as shown in below screenshots.
 
-- Below screenshots show the elapsed run time in the original script
-<img src="Module_Version_2017.PNG"></img>
-<img src="Module_Version_2018.PNG"></img>
+### Below screenshots show the elapsed run time in the original script
+   -  Module version for the analysis of 2017
+   <img src="Module_Version_2017.PNG"></img>
 
-- Below screenshots show the elapsed run time in the refactored script
-<img src="VBA_Challenge_2017.PNG"></img>
-<img src="VBA_Challenge_2018.PNG"></img>
+
+   - Module version for the analysis of 2018
+   <img src="Module_Version_2018.PNG"></img>
+
+### Below screenshots show the elapsed run time in the refactored script
+   - Refactored version for the analysis of 2017
+   <img src="VBA_Challenge_2017.PNG"></img>
+
+
+   - Refactored version for the analysis of 2018
+   <img src="VBA_Challenge_2018.PNG"></img>
 
 
 Both scripts begin by creating a variable based on user's input on the year of interest, formats the output sheet on the tab named "All Stocks Analysis" based on the year selected by the user. The first column for tickers was created as an array, with each element assigned with its own ticker, as shown below.
